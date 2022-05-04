@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+    font-family: 'poppins';
+    font-style: normal;
+    text-decoration: none;
+    outline: none;
+}
+
+button{
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+}
+
+header{
+    padding: 42px;
+    background: linear-gradient(304.58deg, #F4ECE1 57.1%, #FCFBF7 145.5%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    font-style: normal;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo > h3{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 139.8%;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+nav > a > h5{
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 20px;
+    line-height: 94.8%;
+    color: #000 !important;
+}
+
+.end{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.searchbar{ 
+    padding: 8px 0 8px 0;
+    background: rgba(255, 249, 240, 0.1);
+    box-shadow: 0px 9.9272px 33.0907px -13.2363px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.searchbar > input{
+    font-weight: 400;
+    font-size: 18.1999px;
+    line-height: 94.8%;
+    text-align: left;
+    border-right: 0.827267px solid rgba(148, 140, 140, 0.31);
+    background: url("./img/searchIcon.svg");
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-position: 0px; 
+    width: 66%;
+    color: #000;    
+}
+
+.searchbar > input::placeholder{
+    color: #000;
+}
+
+.searchbar > div{
+    position: relative;
+}
+
+.notification{
+    position: absolute;
+    padding: 3px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 14.06px;
+    height: 14.06px;
+
+    top: -12px;
+    right: -16px;
+
+    background: #EC2633;
+    box-shadow: 0px 1.65453px 19.0271px 0.827267px rgba(255, 51, 52, 0.72);
+
+    font-weight: 400;
+    font-size: 8.27267px;
+    color: #fff;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.buttons > button{
+    border-radius: 23.5714px;
+    font-weight: 500;
+    font-size: 11.7857px;
+    line-height: 18px;
+    width: 125px;
+    height: 45px;
+}
+
+.buttons > button:first-child{
+    border: 1px solid #2F2F2F;  
+}
+
+.buttons > button:last-child{
+    background: #2F2F2F;
+    color: #fff;
+}
+
+.sec1{
+    background: linear-gradient(304.58deg, #F4ECE1 57.1%, #FCFBF7 145.5%);
+    width: 100%;
+    height: 100vh;
+    padding: 50px 0 0 61px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Title1 > div:first-child{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    font-weight: 900;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+
+    color: #FF8E0A;
+}
+
+.Title1 > div:first-child > h6{
+    font-size: 14px !important;
+}
