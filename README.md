@@ -1,6 +1,6 @@
 # FastFoodDelivery
 
-<img src="./img/example" alt="exemplo imagem">
+<img src="./img/example.png" alt="exemplo imagem">
 
 # Lading Page
 
@@ -26,4 +26,4 @@ PIX: henriqueamaralhp@gmail.com (email)
  `git clone https://github.com/PaoFrito/FastFoodDelivery`
 - Abra o arquivo index.html
 
-<p align="center">Copyright © 2022 Henrique Amaral</p>
+<p align="center">Copyright © 2022 Henrique</p>
